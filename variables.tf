@@ -30,7 +30,7 @@ variable "role_name" {
 
 variable "policy_arn" {
   type        = list(string)
-  default     = null
+  default     = []
   description = "list of ARN policies for attachment role"
 }
 

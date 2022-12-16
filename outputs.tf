@@ -15,5 +15,5 @@ output "policy_name" {
 
 output "policy_arn" {
   description = "The ARN assigned by AWS to this policy."
-  value = concat(aws_iam_policy.this.*.arn, [""])
+  value = concat(aws_iam_policy.this.*.arn, [])
 }
